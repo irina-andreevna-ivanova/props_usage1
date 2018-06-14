@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Start Page</title>
+</head>
+<body>
+  <h th:text="#{a.b.c.d.e.f_w}"></h>
+  <h th:text="#{a.b.c.d.e.f-w}"></h>
+  <h th:text="#{a-b-c-d-e-f}"></h>
+  <h th:text="#{${#strings.toUpperCase('a'+model_attr1)}}"></h>
+</body>
+</html>
